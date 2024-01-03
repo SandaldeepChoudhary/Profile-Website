@@ -558,8 +558,8 @@ footer img {
 }
 
 #scroller h4:hover {
-  color: rgb(160, 32, 240);
-  -webkit-text-stroke: 1px rgb(160, 32, 240);
+  color: rgb(34, 99, 219);
+  -webkit-text-stroke: 1px rgb(34, 99, 219);
   cursor: default;
 }
 
