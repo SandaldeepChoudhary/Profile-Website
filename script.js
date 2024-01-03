@@ -5,6 +5,16 @@ var colon1 = document.querySelector("#colon1");
 var colon2 = document.querySelector("#colon2");
 var cards = document.querySelectorAll(".card");
 var page4h1 = document.querySelector("#page4 h1");
+var text = document.querySelector(".dynamicText");
+const roles = ["Full-Stack Developer", "Designer", "App Developer"];
+let currentIndex = 0;
+textUpdate();
+
+function textUpdate(){
+  text.textContent = roles[currentIndex];
+  currentIndex = (currentIndex + 1) % roles.length;
+}
+setInterval(textUpdate, 4000);
 
 //Adding Cursor Animation for Cards
 // cards.forEach(function (elem) {

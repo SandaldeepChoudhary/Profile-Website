@@ -129,6 +129,7 @@ video {
   z-index: -1;
 }
 
+
 #page1 h2 {
   font-size: 2vw;
   font-weight: 900;
@@ -557,6 +558,37 @@ footer img {
   cursor: default;
 }
 
+.animatedContainerPro{
+  overflow: hidden;
+}
+
+.animatedContainer .dynamicText{
+  position: relative;
+  overflow: hidden;
+  padding: 6px;
+  background-color: #11f368;
+}
+
+.dynamicText::before{
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #11f368;
+  border-left: 2px solid #ceff09;
+  animation: textUpdate 4s steps(12) infinite;
+}
+
+@keyframes textUpdate{
+  40%, 60%{
+    left: 100%;
+  }
+  100%{
+    left: 0%;
+  }
+}
 
 @keyframes scroll {
   from {
