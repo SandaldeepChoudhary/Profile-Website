@@ -37,14 +37,15 @@ navH4.forEach(function (elem) {
     crsr.style.transform = "scale(3)";
     crsr.style.border = "1px solid #fff";
     crsr.style.backgroundColor = "transparent";
-    navH4.style.color = "#ceff09";
+    navH4.style.color = "rgb(34, 99, 219)";
+    
   });
 
   elem.addEventListener("mouseleave", function () {
     crsr.style.transition = "transform 0.3s ease";
     crsr.style.transform = "scale(1)";
-    crsr.style.border = "1px solid #ceff09";
-    crsr.style.backgroundColor = "#ceff09";
+    crsr.style.border = "1px solid rgb(34, 99, 219)";
+    crsr.style.backgroundColor = "rgb(34, 99, 219)";
     navH4.style.color = ""; // Reset the color
   });
 });
