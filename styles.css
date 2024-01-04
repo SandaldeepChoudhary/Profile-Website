@@ -634,6 +634,10 @@ footer img {
   .page4-cards h1 {
     top: -35%;
   }
+
+  footer{
+    height: 30vh;
+  }
 }
 
 /* md */
@@ -648,6 +652,10 @@ footer img {
 
   .overlay ul {
     font-size: 2.5vw;
+  }
+
+  footer{
+    height: 28vh;
   }
 }
 
@@ -763,7 +771,7 @@ footer img {
     height: 30%;
     width: 90%;
     position: relative;
-    background-color: #ceff09;
+    background-color: rgb(34, 99, 219);
     border-radius: 20px;
     background-size: cover;
     background-position: center;
@@ -833,16 +841,16 @@ footer img {
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     width: 100%;
-    padding: 2vw;
-    height: 100vh;
+    padding: 1vw;
+    height: 40vh;
     background: linear-gradient(-90deg,rgb(95, 214, 230),rgb(34, 99, 219));
   }
 
   .footer-container {
-    height: 80%;
+    height: 20%;
     width: 90%;
     display: flex;
     align-items: flex-start;
@@ -858,16 +866,12 @@ footer img {
     font-size: 4vw;
   }
 
-  #fcontent1 {
-    height: 60%;
-  }
 
   #fcontent3 {
     height: 100%;
     width: 20%;
     flex-direction: column;
     position: absolute;
-    top: 53%;
     left: 60%;
   }
 
@@ -881,7 +885,6 @@ footer img {
   }
 
   #fcontent4 {
-    top: 60%;
     left: 5%;
     gap: 3vw;
     position: absolute;
